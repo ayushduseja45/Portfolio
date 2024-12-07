@@ -1,0 +1,37 @@
+.container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .text-blue-500 {
+    color: #3b82f6;
+  }
+  
+  .dark .text-blue-500 {
+    color: #2563eb;
+  }
+  
+  .border-gray-500 {
+    border-color: #6b7280;
+  }
+  
+  .dark .border-gray-500 {
+    border-color: #4b5563;
+  }
+  
+  .hover\:bg-gray-200:hover {
+    background-color: #e5e7eb;
+  }
+  
+  .dark .hover\:bg-gray-200:hover {
+    background-color: #374151;
+  }
+  
+  .dark .text-gray-300 {
+    color: #d1d5db;
+  }
+  
+  .invert {
+    filter: invert(1);
+  }
+  
