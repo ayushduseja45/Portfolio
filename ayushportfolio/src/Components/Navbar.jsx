@@ -8,7 +8,11 @@ const Navbar = () => {
     >
       <div className="flex items-center justify-between w-full">
         {/* Main Heading */}
-        <div className="text-2xl font-bold">Portfolio</div>
+        <div className="text-2xl font-bold">
+          <a href="#home" className="hover:text-blue-400 transition">
+            Portfolio
+          </a>
+        </div>
 
         {/* Center Links */}
         <ul className="hidden md:flex space-x-6">
