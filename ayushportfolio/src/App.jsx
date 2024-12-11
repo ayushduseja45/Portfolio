@@ -11,7 +11,7 @@ import RetroGrid from './Components/ui/retro-grid';
 
 function App() {
   return (
-    <div className="relative w-full h-full">
+    <div className="relative w-full h-full bg-gray-900">
       {/* Retro Grid Background */}
       <RetroGrid className="absolute inset-0 w-full h-full -z-10" />
 
